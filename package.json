@@ -1,0 +1,7 @@
+{
+  "name": "nodejs-typescript-solid-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Richard Daros <richarddaros1@gmail.com>",
+  "license": "MIT"
+}
