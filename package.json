@@ -1,10 +1,24 @@
 {
   "name": "nodejs-typescript-solid-template",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Richard Daros <richarddaros1@gmail.com>",
+  "version": "2.0.0",
+  "description": "NodeJs Rest API and GraphQL using TDD, Clean Architecture, Typescript and Design Patterns",
+  "author": "Richard Ros",
   "license": "MIT",
   "devDependencies": {
-    "git-commit-msg-linter": "^4.1.2"
+    "@typescript-eslint/eslint-plugin": "4.33.0",
+    "@typescript-eslint/parser": "^4.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "git-commit-msg-linter": "^3.2.8",
+    "typescript": "^4.4.3"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "_moduleAliases": {
+    "@": "dist"
   }
 }
