@@ -4,7 +4,12 @@
   "description": "NodeJs Rest API and GraphQL using TDD, Clean Architecture, Typescript and Design Patterns",
   "author": "Richard Ros",
   "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:staged": "jest"
+  },
   "devDependencies": {
+    "@types/jest": "^27.5.0",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "^4.0.0",
     "eslint": "^7.32.0",
@@ -14,7 +19,10 @@
     "eslint-plugin-promise": "^5.1.0",
     "git-commit-msg-linter": "^3.2.8",
     "husky": "^7.0.4",
+    "jest": "^27",
     "lint-staged": "^12.4.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
     "typescript": "^4.4.3"
   },
   "engines": {
