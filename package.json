@@ -6,8 +6,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "test": "jest --passWithNoTests --watch",
-    "test:staged": "jest --passWithNoTests",
-    "prepare": "husky install"
+    "test:staged": "jest --passWithNoTests"
   },
   "devDependencies": {
     "@types/jest": "^27.5.0",
