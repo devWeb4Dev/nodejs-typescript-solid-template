@@ -6,9 +6,12 @@
   "license": "UNLICENSED",
   "scripts": {
     "test": "jest --passWithNoTests --watch",
-    "test:staged": "jest --passWithNoTests"
+    "test:staged": "jest --passWithNoTests",
+    "postinstall": "husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
     "@types/jest": "^27.5.0",
     "@types/node": "*",
     "@typescript-eslint/eslint-plugin": "4.33.0",
@@ -18,7 +21,6 @@
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "git-commit-msg-linter": "^3.2.8",
     "husky": "^7.0.4",
     "jest": "^27",
     "lint-staged": "^12.4.1",
